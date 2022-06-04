@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aman Fitness</title>
+</head>
+<link rel="stylesheet" href="cssproject/style.css">
+<style>
+body{
+    margin: 0px;
+    padding: 0px;
+    /* background : url('img/gym.png'); */
+    background-image: url('https://i.pinimg.com/originals/db/41/32/db41328d3aeb244286ff0024a56b25b7.jpg');
+    /* background-image: url('https://c4.wallpaperflare.com/wallpaper/630/144/936/girl-model-blonde-sports-wallpaper-preview.jpg'); */
+   background-image: url('https://thumbs.dreamstime.com/b/portrait-young-fitness-woman-sportswear-doing-workout-dumbbells-black-background-tanned-sexy-athletic-girl-great-89854874.jpg');
+    /* background-image: url('https://c4.wallpaperflare.com/wallpaper/881/1007/764/pose-makeup-mike-figure-hairstyle-hd-wallpaper-preview.jpg');   */
+   /* height: 4546px;   */
+     /* background-repeat: no-repeat;   */
+     color: white;
+      /* height: fit-content;
+     width: fit-content; */
+     
+     
+     background-repeat: auto; 
+      
+     background-color: black;
+      
+      
+} body img{
+    width:100%;
+    /* height: 100%; */
+    margin-left: auto;
+  margin-right: auto;
+   
+    
+     
+}
+/* .left{ 
+    border: 2px solid red;
+    display: inline-block;
+    position: absolute;
+     
+   top: 0px;
+   left: 34px;
+   font-size: 35px;
+
+}*/
+    .left {
+        display: inline-block;
+        /* border: 2px solid red; */
+        position: absolute;
+        left: 20px;
+        top: 20px;
+    }
+
+.left img{ 
+    width: 20%;
+     
+      
+}
+.left div{
+    text-align: left;
+    font-size: 35px;
+    font-style:italic;
+    font-family: cursive;
+     
+     
+}
+ 
+.mid {
+        display: block;
+        width: 36%;
+        margin: 29px auto;
+        /* border: 2px solid green; */
+        font-style:italic;
+        font-family: cursive;
+    }
+
+.right{
+    /* border: 3px solid yellow; */
+   display: inline-block;
+   position: absolute;
+   top: 0px;
+   right: 34px;
+   font-size:25px;
+   
+     
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+     display:inline-block ;
+     font-size: 25px;
+     
+      
+}
+.navbar li a {
+       display: inline;
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+
+    }
+      
+ .navbar li a:hover
+     {
+        /* text-decoration: underline; */
+        color:aqua;
+
+    }
+    .navbar li a.active{
+        /* cursor: pointer; */
+        text-decoration:underline;
+        /* color:grey; */
+    }
+    .btn{
+        margin: 0px 10px;
+        background-color:white;
+        color:black;
+        padding: 10px 10px;
+        border:2px solid grey ;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+         font-style: italic;
+        font-family: cursive;
+    }
+    .btn:hover{
+        background-color:yellow;
+    }
+    .container{
+         
+        margin: 63px 517px;
+        font-size:30px;
+        padding:30px 30px;
+        /* border:2px solid white; */
+        width:30%;
+        border-radius:10px;
+        font-family:cursive;
+        font-style:italic;
+    }
+    .container h1{
+        text-align:center;
+    }
+     
+    .form-group input{
+        text-align:center;
+        display: block;
+        width: 50%;
+        margin:5px 5px;
+        padding:0px;
+        font-size: 50%;
+        border-radius:23px;
+        font-family:cursive;
+        color: rgb(184, 7, 7);
+    } 
+    .container button {
+        display: block;
+        width: 30%;
+        margin: 20px auto;
+    }
+
+</style>
+<body>
+ <header class="header">
+     <div class="left">
+     <img src="img/logo.png" alt="image not found">
+     <div>Aman Fitness</div>
+     
+     </div>
+     <div class="mid">
+    
+<ul class="navbar">
+     <li><a href="#" class="active">Home</a></li>
+                <li><a href="#" class="active">About Us</a></li>
+                <li><a href="#" class="active">Fitness Calculator</a></li>
+                <li><a href="#" class="active">Contact Us</a></li>
+
+
+    </ul>
+
+     </div>
+     <div class="right">
+      <button class="btn">Call Us Now</button>
+    <button class="btn">Email Us</button>
+     </div>
+  <div class="container">
+     <h1> Join the best Gym of koiripur</h1> 
+      <form action="noaction.php">
+       <div class="form-group">
+         <input type="text" name="" placeholder="Enter Your Name">
+         <div> 
+         <input type="text" name=""  placeholder="Enter Your Age"></div>
+         <div> <input type="text" name="" placeholder="Enter Your Gender" > </div>
+           <input type="text" name=""  placeholder="Enter Your Phone Number"></div>
+         <button class="btn">Submit</button>
+       </div>
+
+
+
+      </form>
+  </div>
+
+ </header>   
+</body>
+</html>
